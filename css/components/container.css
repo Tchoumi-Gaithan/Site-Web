@@ -1,0 +1,17 @@
+.container{
+  width: 1000px;
+  margin: 40px auto;
+}
+.container h1{
+  font-size: 100px;
+}
+@media (max-width: 900px){
+  .container{
+    width: 500px;
+  }
+}
+@media (max-width: 600px){
+  .container{
+    width: 400px;
+  }
+}
